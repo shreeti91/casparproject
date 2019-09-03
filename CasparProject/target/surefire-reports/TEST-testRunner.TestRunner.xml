@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="18" failures="0" name="testRunner.TestRunner" time="0.001" errors="0" skipped="0">
+<testsuite tests="18" failures="0" name="testRunner.TestRunner" time="0.003" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_74\jre\bin"/>
     <property name="java.vm.version" value="25.74-b02"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
-    <property name="maven.multiModuleProjectDirectory" value="C:\Users\hp\shreeti-Caspar\casparproject\CasparProject"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\hp\shreeti-caspar-final\casparproject\CasparProject"/>
     <property name="java.vendor.url" value="http://java.oracle.com/"/>
     <property name="path.separator" value=";"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
@@ -16,7 +16,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.os.patch.level" value=""/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="C:\Users\hp\shreeti-Caspar\casparproject\CasparProject"/>
+    <property name="user.dir" value="C:\Users\hp\shreeti-caspar-final\casparproject\CasparProject"/>
     <property name="java.runtime.version" value="1.8.0_74-b02"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
     <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_74\jre\lib\endorsed"/>
@@ -27,7 +27,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="user.variant" value=""/>
     <property name="os.name" value="Windows 7"/>
-    <property name="classworlds.conf" value="C:\Users\hp\shreeti-Caspar\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf1116029009914841833.tmp"/>
+    <property name="classworlds.conf" value="C:\Users\hp\shreeti-caspar-final\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf1040886039744367813.tmp"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
     <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_74\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_101/bin/client;C:/Program Files/Java/jre1.8.0_101/bin;C:/Program Files/Java/jre1.8.0_101/lib/i386;C:\ProgramData\Oracle\Java\javapath;C:\Program Files\Teradata\Client\13.0\AXSMOD\;C:\Informatica\9.5.0\clients\DT\bin;C:\Informatica\9.5.0\clients\tools\datadirect;C:\Informatica\9.5.0\clients\DeveloperClient\bin;C:\Informatica\9.5.0\clients\tools\odbcdrv;C:\Informatica\9.5.0\java\jre\bin\server;C:\Informatica\9.5.0\tools\odbcdrv;C:\Informatica\9.5.0\tools\datadirect;c:\app\hp\product\11.1.0\db_1\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Teradata\Client\13.0\Shared ICU Libraries for Teradata\lib\;C:\Program Files\AXSMOD;C:\Program Files\Teradata\Client\13.0\Teradata\Client\13.0\pp2;C:\Program Files\Microsoft SQL Server\80\Tools\Binn\;C:\Program Files\Microsoft SQL Server\90\DTS\Binn\;C:\Program Files\Microsoft SQL Server\90\Tools\binn\;C:\Program Files\Microsoft SQL Server\90\Tools\Binn\VSShell\Common7\IDE\;C:\Program Files\Microsoft Visual Studio 8\Common7\IDE\PrivateAssemblies;C:\Program Files\Java\jdk1.8.0_74\bin;C:\Program Files\Git\cmd;C:\Windows\system32;;."/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
@@ -53,7 +53,7 @@
     <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_74\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
     <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_74\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_74\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_74\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_74\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_74\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_74\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_74\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_74\jre\classes"/>
     <property name="java.vendor" value="Oracle Corporation"/>
-    <property name="maven.home" value="C:\Users\hp\shreeti-Caspar\casparproject\CasparProject\EMBEDDED"/>
+    <property name="maven.home" value="C:\Users\hp\shreeti-caspar-final\casparproject\CasparProject\EMBEDDED"/>
     <property name="file.separator" value="\"/>
     <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -61,11 +61,11 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86"/>
   </properties>
-  <testcase classname="Given the user launches login page &quot;https:\​​beta.caspar-health.com\en\&quot;(| https:\​​beta.caspar-health.com\en\ | IXE0865 | 78350619 |)" name="Given the user launches login page &quot;https:\​​beta.caspar-health.com\en\&quot;" time="0.001"/>
+  <testcase classname="Given the user launches login page &quot;https:\​​beta.caspar-health.com\en\&quot;(| https:\​​beta.caspar-health.com\en\ | IXE0865 | 78350619 |)" name="Given the user launches login page &quot;https:\​​beta.caspar-health.com\en\&quot;" time="0"/>
   <testcase classname="When the user enters &quot;IXE0865&quot; and &quot;78350619&quot;(| https:\​​beta.caspar-health.com\en\ | IXE0865 | 78350619 |)" name="When the user enters &quot;IXE0865&quot; and &quot;78350619&quot;" time="0"/>
   <testcase classname="Then he clicks on Login Button(| https:\​​beta.caspar-health.com\en\ | IXE0865 | 78350619 |)" name="Then he clicks on Login Button" time="0"/>
   <testcase classname="And is able to see Add Patient button(| https:\​​beta.caspar-health.com\en\ | IXE0865 | 78350619 |)" name="And is able to see Add Patient button" time="0"/>
-  <testcase classname="| https:\​​beta.caspar-health.com\en\ | IXE0865 | 78350619 |" name="| https:\​​beta.caspar-health.com\en\ | IXE0865 | 78350619 |" time="0"/>
+  <testcase classname="| https:\​​beta.caspar-health.com\en\ | IXE0865 | 78350619 |" name="| https:\​​beta.caspar-health.com\en\ | IXE0865 | 78350619 |" time="0.001"/>
   <testcase classname="Scenario: Add patient" name="Given user is on homepage" time="0"/>
   <testcase classname="Scenario: Add patient" name="When user clicks on Add Patient button" time="0"/>
   <testcase classname="Scenario: Add patient" name="Then the page for adding patient information is opened" time="0"/>
@@ -77,6 +77,6 @@
   <testcase classname="Scenario: Add patient" name="When the user enters &quot;newPatient&quot; and &quot;newTempPwd&quot;" time="0"/>
   <testcase classname="Scenario: Add patient" name="Then he clicks on Login Button" time="0"/>
   <testcase classname="Scenario: Add patient" name="And able to click on terms and conditions and see it" time="0"/>
-  <testcase classname="Scenario: Add patient" name="And able to click on release of medical information and see it" time="0"/>
-  <testcase classname="Scenario: Add patient" name="Scenario: Add patient" time="0"/>
+  <testcase classname="Scenario: Add patient" name="And able to click on release of medical information and see it" time="0.001"/>
+  <testcase classname="Scenario: Add patient" name="Scenario: Add patient" time="0.001"/>
 </testsuite>

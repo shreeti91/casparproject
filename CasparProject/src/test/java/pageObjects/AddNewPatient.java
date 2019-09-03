@@ -25,9 +25,6 @@ public class AddNewPatient {
 	public By height = By.id("mat-input-11");
 	public By weight = By.id("mat-input-12");
 	public By bmi = By.id("mat-input-13");
-	/*public By therapy_goal = By.id("mat-input-14");
-	public By therapy_recommend = By.id("mat-input-15");
-	public By other_text = By.id("mat-input-16");*/
 	public By therapy_goal = By.xpath("//*[@id=\"mat-input-14\"]");
 	public By therapy_recommend = By.xpath("//*[@id=\"mat-input-15\"]");
 	public By other_text = By.xpath("//*[@id=\"mat-input-16\"]");
@@ -81,33 +78,6 @@ public class AddNewPatient {
 			listOfYear.get(25).click();
 		}
 		
-		/*boolean staleElement = true; 
-		while(staleElement){
-		  try{
-			  if (!listOfYear.isEmpty() && listOfYear.size()>25) {
-					//Selecting 1991
-					listOfDates.get(25).click();
-				}
-
-		     staleElement = false;
-
-		  } catch(StaleElementReferenceException e){
-		    staleElement = true;
-		  }
-		}*/
-		
-		
-		/*if (!listOfYear.isEmpty() && listOfYear.size()>25) {
-			//Selecting 1991
-			Robot rb = new Robot();
-			for (int j = 0 ; j<25;j++) {
-				rb.keyPress(KeyEvent.VK_DOWN);
-				rb.keyRelease(KeyEvent.VK_DOWN);
-			}
-			rb.keyPress(KeyEvent.VK_ENTER);
-			rb.keyRelease(KeyEvent.VK_ENTER);
-			
-		}*/
 
 		objBaseUtils.click_onLocator(GenderWB);
 		WebElement wbGender = TestRunner.objDriver.findElement(By.xpath("//div[@id='cdk-overlay-3']/div"));
@@ -131,7 +101,7 @@ public class AddNewPatient {
 	}
 	
 	public void enter_ContactInformation() {
-		objBaseUtils.enter_details_using_Action_class(email, "shreeti70@gmail.com");
+		objBaseUtils.enter_details_using_Action_class(email, "shreeti711@gmail.com");
 		objBaseUtils.enter_details_using_Action_class(telephone, "9677070690");
 		objBaseUtils.enter_details_using_Action_class(street, "Dummy Street");
 		objBaseUtils.enter_details_using_Action_class(streetNumber, "16/A");
