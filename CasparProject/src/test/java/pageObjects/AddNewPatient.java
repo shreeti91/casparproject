@@ -131,7 +131,7 @@ public class AddNewPatient {
 	}
 	
 	public void enter_ContactInformation() {
-		objBaseUtils.enter_details_using_Action_class(email, "shreeti69@gmail.com");
+		objBaseUtils.enter_details_using_Action_class(email, "shreeti70@gmail.com");
 		objBaseUtils.enter_details_using_Action_class(telephone, "9677070690");
 		objBaseUtils.enter_details_using_Action_class(street, "Dummy Street");
 		objBaseUtils.enter_details_using_Action_class(streetNumber, "16/A");
